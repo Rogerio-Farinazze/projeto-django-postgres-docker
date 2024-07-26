@@ -1,0 +1,18 @@
+{% extends './base/base.html' %}
+
+{% block title %}Página Inicial{% endblock %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+<h1>Home</h1>
+
+<p>Enter homepage content!</p>
+
+{% else %}
+
+{% include './base/login.html' %}
+
+{% endif %}
+
+{% endblock %}

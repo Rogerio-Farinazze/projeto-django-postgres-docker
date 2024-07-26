@@ -1,0 +1,8 @@
+/* Cabeçalho */
+
+main,h1 {
+    padding: 20px 0;
+}
+.card-header>h2{
+    font-size: 1.4em;
+}
